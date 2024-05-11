@@ -16,7 +16,7 @@ const CartItems = () => {
         </div>
         <hr />
         {all_product.map((e) => {
-            if(cartItems[e.id]>0)
+            if(cartItems[e.id] > 0 )
             {
               return  <div key={e.id}>
                 <div className='cart-items-format cart-items-format-main'>
